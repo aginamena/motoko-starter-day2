@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Homework</title>
+    <base href="/" />
+    <link rel="icon" href="favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div>
+      <input id="title" type="text" placeholder="Title" required />
+      <input id="description" type="text" placeholder="Description" required />
+      <input id="dueDate" type="number" placeholder="Duedate" required />
+      <div id="feedback"></div>
+      <button id="addHomework">Add homewaork</button>
+    </div>
+    <div style="margin-top: 30px">
+      <input id="homeworkId" type="number" placeholder="homework id" required />
+      <div id="getHomeworkFeedback"></div>
+      <button id="gethomework">Get homework</button>
+    </div>
+    <div style="margin-top: 30px">
+      <input
+        id="updatHomeworkId"
+        type="number"
+        placeholder="homework id"
+        required
+      />
+      <input id="updateTitle" type="text" placeholder="Title" required />
+      <input
+        id="updateDescription"
+        type="text"
+        placeholder="Description"
+        required
+      />
+      <input id="updateDueDate" type="number" placeholder="Duedate" required />
+      <div id="updateFeedback"></div>
+      <button id="updateHomework">update homework</button>
+    </div>
+    <div style="margin-top: 30px">
+      <input
+        id="deleteHomeworkId"
+        type="number"
+        placeholder="homework id"
+        required
+      />
+      <div id="deleteFeedback"></div>
+      <button id="deleteHomework">delete homework</button>
+    </div>
+
+    <div style="margin-top: 30px">
+      <div id="getAllHomeworkFeedback"></div>
+      <button id="getAllHomework">get all homework</button>
+    </div>
+    <div style="margin-top: 30px">
+      <div id="getPendingHomeworkFeedback"></div>
+      <button id="getPendingHomework">get pending homework</button>
+    </div>
+    <div style="margin-top: 30px">
+      <input type="number" placeholder="id" id="markAsCompleteId" />
+      <div id="markAsCompleteFeedback"></div>
+      <button id="markAsComplete">Mark as complete</button>
+    </div>
+    <div style="margin-top: 30px">
+      <input
+        type="text"
+        placeholder="search by title or description"
+        id="searchHomeworkText"
+      />
+      <div id="searchHomeworkFeedback"></div>
+      <button id="searchHomework">Search Homework</button>
+    </div>
+  </body>
+</html>
